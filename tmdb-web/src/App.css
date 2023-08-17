@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background: #161616;
+  color: #FFF;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  outline: none;
+  list-style-type: none;
+}
+
+.container {
+  width: 100%;
+  margin: 1em auto;
+}
+
+.grid {
+  display: grid;
+  margin-left: 8px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 8px;
+  justify-content: center;
+}
+
+#card-poster {
+  border-radius: 0.375rem;
+}
+
+#card-release-date {
+  margin-bottom: 8px;
+}
+
+#header {
+  max-width: 400px;
+}
+
+#modal-poster {
+  border-radius: 0.375rem;
+  max-height: 450px;
+  max-width: 300px;
+}
+
+#movie-container {
+  background-color: #282c34;
+  border-radius: 0.375rem;
+  height: 100%;
+  position: relative;
+  transition: transform 0.2s;
+}
+
+#movie-container:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+}
+
+#no-poster {
+  line-height: 1.8em;
+  margin: 50% 0%;
+  max-height: 5.4em;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+#title {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  max-height: 1.8em;
+  margin-bottom: 8px;
+  line-height: 1.8em;
+}
